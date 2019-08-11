@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots UI|Button default 1`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    Default
+  </span>
+</button>
+`;
+
+exports[`Storyshots UI|Button primary 1`] = `
+<button
+  className="ant-btn ant-btn-primary"
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    Primary
+  </span>
+</button>
+`;
