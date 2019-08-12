@@ -10,7 +10,7 @@ module.exports = async ({ config, mode }) => {
       exclude: /node_modules/,
       test: /\.(js|jsx)$/,
       options: {
-          presets: ['@babel/react', '@babel/preset-env'],
+          presets: ['@babel/react'],
           plugins: [
               ['import', {
                 libraryName: 'antd',
